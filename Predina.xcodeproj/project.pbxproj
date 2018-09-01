@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C357D87A21188CDB00A78FDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C357D87921188CDB00A78FDD /* AppDelegate.swift */; };
+		C357D87C21188CDB00A78FDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C357D87B21188CDB00A78FDD /* ViewController.swift */; };
+		C357D87F21188CDB00A78FDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C357D87D21188CDB00A78FDD /* Main.storyboard */; };
+		C357D88221188CDB00A78FDD /* Predina.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C357D88021188CDB00A78FDD /* Predina.xcdatamodeld */; };
+		C357D88421188CDC00A78FDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C357D88321188CDC00A78FDD /* Assets.xcassets */; };
+		C357D88721188CDC00A78FDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C357D88521188CDC00A78FDD /* LaunchScreen.storyboard */; };
+		C357D89221188CDC00A78FDD /* PredinaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C357D89121188CDC00A78FDD /* PredinaTests.swift */; };
+		C357D89D21188CDC00A78FDD /* PredinaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C357D89C21188CDC00A78FDD /* PredinaUITests.swift */; };
+		C357D8AC2118BDCC00A78FDD /* Coordinates.csv in Resources */ = {isa = PBXBuildFile; fileRef = C357D8AB2118BDCC00A78FDD /* Coordinates.csv */; };
+		C357D8AE2118BDD500A78FDD /* realtimelocation.csv in Resources */ = {isa = PBXBuildFile; fileRef = C357D8AD2118BDD500A78FDD /* realtimelocation.csv */; };
+		C36BE15F2119B4BE0028E62C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C36BE15E2119B4BE0028E62C /* README.md */; };
+		C36BE1612119BCC50028E62C /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36BE1602119BCC50028E62C /* Utility.swift */; };
+		C36BE1632119BD590028E62C /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36BE1622119BD590028E62C /* Models.swift */; };
+		C36BE16B2119DEF80028E62C /* car.png in Resources */ = {isa = PBXBuildFile; fileRef = C36BE16A2119DEF80028E62C /* car.png */; };
+		C36BE16D2119E04A0028E62C /* Exercise - Mobile.docx in Resources */ = {isa = PBXBuildFile; fileRef = C36BE16C2119E04A0028E62C /* Exercise - Mobile.docx */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C357D88E21188CDC00A78FDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C357D86E21188CDB00A78FDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C357D87521188CDB00A78FDD;
+			remoteInfo = Predina;
+		};
+		C357D89921188CDC00A78FDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C357D86E21188CDB00A78FDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C357D87521188CDB00A78FDD;
+			remoteInfo = Predina;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C357D87621188CDB00A78FDD /* Predina.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Predina.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C357D87921188CDB00A78FDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C357D87B21188CDB00A78FDD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C357D87E21188CDB00A78FDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C357D88121188CDB00A78FDD /* Predina.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Predina.xcdatamodel; sourceTree = "<group>"; };
+		C357D88321188CDC00A78FDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C357D88621188CDC00A78FDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C357D88821188CDC00A78FDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C357D88D21188CDC00A78FDD /* PredinaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PredinaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C357D89121188CDC00A78FDD /* PredinaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredinaTests.swift; sourceTree = "<group>"; };
+		C357D89321188CDC00A78FDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C357D89821188CDC00A78FDD /* PredinaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PredinaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C357D89C21188CDC00A78FDD /* PredinaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredinaUITests.swift; sourceTree = "<group>"; };
+		C357D89E21188CDC00A78FDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C357D8AB2118BDCC00A78FDD /* Coordinates.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Coordinates.csv; sourceTree = "<group>"; };
+		C357D8AD2118BDD500A78FDD /* realtimelocation.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = realtimelocation.csv; sourceTree = "<group>"; };
+		C36BE15E2119B4BE0028E62C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C36BE1602119BCC50028E62C /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		C36BE1622119BD590028E62C /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		C36BE16A2119DEF80028E62C /* car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car.png; sourceTree = "<group>"; };
+		C36BE16C2119E04A0028E62C /* Exercise - Mobile.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Exercise - Mobile.docx"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C357D87321188CDB00A78FDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C357D88A21188CDC00A78FDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C357D89521188CDC00A78FDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C357D86D21188CDB00A78FDD = {
+			isa = PBXGroup;
+			children = (
+				C357D87821188CDB00A78FDD /* Predina */,
+				C357D89021188CDC00A78FDD /* PredinaTests */,
+				C357D89B21188CDC00A78FDD /* PredinaUITests */,
+				C357D87721188CDB00A78FDD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C357D87721188CDB00A78FDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C357D87621188CDB00A78FDD /* Predina.app */,
+				C357D88D21188CDC00A78FDD /* PredinaTests.xctest */,
+				C357D89821188CDC00A78FDD /* PredinaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C357D87821188CDB00A78FDD /* Predina */ = {
+			isa = PBXGroup;
+			children = (
+				C357D8AA2118BDA000A78FDD /* Supporting files */,
+				C357D87B21188CDB00A78FDD /* ViewController.swift */,
+				C36BE1602119BCC50028E62C /* Utility.swift */,
+				C36BE1622119BD590028E62C /* Models.swift */,
+				C36BE15E2119B4BE0028E62C /* README.md */,
+				C357D87D21188CDB00A78FDD /* Main.storyboard */,
+				C36BE16E2119E0930028E62C /* Exercise files */,
+				C36BE16A2119DEF80028E62C /* car.png */,
+				C357D88821188CDC00A78FDD /* Info.plist */,
+				C357D88021188CDB00A78FDD /* Predina.xcdatamodeld */,
+			);
+			path = Predina;
+			sourceTree = "<group>";
+		};
+		C357D89021188CDC00A78FDD /* PredinaTests */ = {
+			isa = PBXGroup;
+			children = (
+				C357D89121188CDC00A78FDD /* PredinaTests.swift */,
+				C357D89321188CDC00A78FDD /* Info.plist */,
+			);
+			path = PredinaTests;
+			sourceTree = "<group>";
+		};
+		C357D89B21188CDC00A78FDD /* PredinaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C357D89C21188CDC00A78FDD /* PredinaUITests.swift */,
+				C357D89E21188CDC00A78FDD /* Info.plist */,
+			);
+			path = PredinaUITests;
+			sourceTree = "<group>";
+		};
+		C357D8AA2118BDA000A78FDD /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				C357D87921188CDB00A78FDD /* AppDelegate.swift */,
+				C357D88521188CDC00A78FDD /* LaunchScreen.storyboard */,
+				C357D88321188CDC00A78FDD /* Assets.xcassets */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		C36BE16E2119E0930028E62C /* Exercise files */ = {
+			isa = PBXGroup;
+			children = (
+				C357D8AB2118BDCC00A78FDD /* Coordinates.csv */,
+				C36BE16C2119E04A0028E62C /* Exercise - Mobile.docx */,
+				C357D8AD2118BDD500A78FDD /* realtimelocation.csv */,
+			);
+			path = "Exercise files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C357D87521188CDB00A78FDD /* Predina */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C357D8A121188CDC00A78FDD /* Build configuration list for PBXNativeTarget "Predina" */;
+			buildPhases = (
+				C357D87221188CDB00A78FDD /* Sources */,
+				C357D87321188CDB00A78FDD /* Frameworks */,
+				C357D87421188CDB00A78FDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Predina;
+			productName = Predina;
+			productReference = C357D87621188CDB00A78FDD /* Predina.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C357D88C21188CDC00A78FDD /* PredinaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C357D8A421188CDC00A78FDD /* Build configuration list for PBXNativeTarget "PredinaTests" */;
+			buildPhases = (
+				C357D88921188CDC00A78FDD /* Sources */,
+				C357D88A21188CDC00A78FDD /* Frameworks */,
+				C357D88B21188CDC00A78FDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C357D88F21188CDC00A78FDD /* PBXTargetDependency */,
+			);
+			name = PredinaTests;
+			productName = PredinaTests;
+			productReference = C357D88D21188CDC00A78FDD /* PredinaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C357D89721188CDC00A78FDD /* PredinaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C357D8A721188CDC00A78FDD /* Build configuration list for PBXNativeTarget "PredinaUITests" */;
+			buildPhases = (
+				C357D89421188CDC00A78FDD /* Sources */,
+				C357D89521188CDC00A78FDD /* Frameworks */,
+				C357D89621188CDC00A78FDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C357D89A21188CDC00A78FDD /* PBXTargetDependency */,
+			);
+			name = PredinaUITests;
+			productName = PredinaUITests;
+			productReference = C357D89821188CDC00A78FDD /* PredinaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C357D86E21188CDB00A78FDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "mahesh lad";
+				TargetAttributes = {
+					C357D87521188CDB00A78FDD = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					C357D88C21188CDC00A78FDD = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = C357D87521188CDB00A78FDD;
+					};
+					C357D89721188CDC00A78FDD = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = C357D87521188CDB00A78FDD;
+					};
+				};
+			};
+			buildConfigurationList = C357D87121188CDB00A78FDD /* Build configuration list for PBXProject "Predina" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C357D86D21188CDB00A78FDD;
+			productRefGroup = C357D87721188CDB00A78FDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C357D87521188CDB00A78FDD /* Predina */,
+				C357D88C21188CDC00A78FDD /* PredinaTests */,
+				C357D89721188CDC00A78FDD /* PredinaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C357D87421188CDB00A78FDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C36BE16B2119DEF80028E62C /* car.png in Resources */,
+				C36BE15F2119B4BE0028E62C /* README.md in Resources */,
+				C357D8AC2118BDCC00A78FDD /* Coordinates.csv in Resources */,
+				C357D8AE2118BDD500A78FDD /* realtimelocation.csv in Resources */,
+				C357D88721188CDC00A78FDD /* LaunchScreen.storyboard in Resources */,
+				C357D88421188CDC00A78FDD /* Assets.xcassets in Resources */,
+				C357D87F21188CDB00A78FDD /* Main.storyboard in Resources */,
+				C36BE16D2119E04A0028E62C /* Exercise - Mobile.docx in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C357D88B21188CDC00A78FDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C357D89621188CDC00A78FDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C357D87221188CDB00A78FDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C36BE1612119BCC50028E62C /* Utility.swift in Sources */,
+				C357D87C21188CDB00A78FDD /* ViewController.swift in Sources */,
+				C357D87A21188CDB00A78FDD /* AppDelegate.swift in Sources */,
+				C357D88221188CDB00A78FDD /* Predina.xcdatamodeld in Sources */,
+				C36BE1632119BD590028E62C /* Models.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C357D88921188CDC00A78FDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C357D89221188CDC00A78FDD /* PredinaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C357D89421188CDC00A78FDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C357D89D21188CDC00A78FDD /* PredinaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C357D88F21188CDC00A78FDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C357D87521188CDB00A78FDD /* Predina */;
+			targetProxy = C357D88E21188CDC00A78FDD /* PBXContainerItemProxy */;
+		};
+		C357D89A21188CDC00A78FDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C357D87521188CDB00A78FDD /* Predina */;
+			targetProxy = C357D89921188CDC00A78FDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C357D87D21188CDB00A78FDD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C357D87E21188CDB00A78FDD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C357D88521188CDC00A78FDD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C357D88621188CDC00A78FDD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C357D89F21188CDC00A78FDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C357D8A021188CDC00A78FDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C357D8A221188CDC00A78FDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SAZ5K2949S;
+				INFOPLIST_FILE = Predina/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ladtechnologies.Predina;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C357D8A321188CDC00A78FDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SAZ5K2949S;
+				INFOPLIST_FILE = Predina/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ladtechnologies.Predina;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C357D8A521188CDC00A78FDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SAZ5K2949S;
+				INFOPLIST_FILE = PredinaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ladtechnologies.PredinaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Predina.app/Predina";
+			};
+			name = Debug;
+		};
+		C357D8A621188CDC00A78FDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SAZ5K2949S;
+				INFOPLIST_FILE = PredinaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ladtechnologies.PredinaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Predina.app/Predina";
+			};
+			name = Release;
+		};
+		C357D8A821188CDC00A78FDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SAZ5K2949S;
+				INFOPLIST_FILE = PredinaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ladtechnologies.PredinaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Predina;
+			};
+			name = Debug;
+		};
+		C357D8A921188CDC00A78FDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SAZ5K2949S;
+				INFOPLIST_FILE = PredinaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ladtechnologies.PredinaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Predina;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C357D87121188CDB00A78FDD /* Build configuration list for PBXProject "Predina" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C357D89F21188CDC00A78FDD /* Debug */,
+				C357D8A021188CDC00A78FDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C357D8A121188CDC00A78FDD /* Build configuration list for PBXNativeTarget "Predina" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C357D8A221188CDC00A78FDD /* Debug */,
+				C357D8A321188CDC00A78FDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C357D8A421188CDC00A78FDD /* Build configuration list for PBXNativeTarget "PredinaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C357D8A521188CDC00A78FDD /* Debug */,
+				C357D8A621188CDC00A78FDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C357D8A721188CDC00A78FDD /* Build configuration list for PBXNativeTarget "PredinaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C357D8A821188CDC00A78FDD /* Debug */,
+				C357D8A921188CDC00A78FDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C357D88021188CDB00A78FDD /* Predina.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C357D88121188CDB00A78FDD /* Predina.xcdatamodel */,
+			);
+			currentVersion = C357D88121188CDB00A78FDD /* Predina.xcdatamodel */;
+			path = Predina.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C357D86E21188CDB00A78FDD /* Project object */;
+}
